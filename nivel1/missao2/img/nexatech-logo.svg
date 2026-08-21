@@ -1,0 +1,23 @@
+<svg viewBox="0 0 640 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NexaTech">
+  <defs>
+    <linearGradient id="diagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2EC4B6"/>
+      <stop offset="100%" stop-color="#6C63FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: abstracted N as two pillars joined by a diagonal connector,
+       with a single accent node marking the point where every service converges -->
+  <g>
+    <rect x="40" y="40" width="30" height="120" rx="7" fill="#10172B"/>
+    <rect x="130" y="40" width="30" height="120" rx="7" fill="#10172B"/>
+    <path d="M 68 62 L 132 138" stroke="url(#diagGrad)" stroke-width="26" stroke-linecap="round" fill="none"/>
+    <circle cx="100" cy="100" r="15" fill="#FFB86B"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="196" y="120" font-family="'Space Grotesk','Segoe UI',Helvetica,Arial,sans-serif" font-size="64" font-weight="700" fill="#10172B">Nexa<tspan fill="#2EC4B6">Tech</tspan></text>
+
+  <!-- Tagline -->
+  <text x="199" y="152" font-family="'Space Grotesk','Segoe UI',Helvetica,Arial,sans-serif" font-size="18" letter-spacing="2" fill="#6B7280">SOLUCOES EM TECNOLOGIA</text>
+</svg>
